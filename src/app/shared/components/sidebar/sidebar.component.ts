@@ -9,8 +9,7 @@ import { GifService } from '../../../gifs/services/gifs.service';
 export class SidebarComponent {
   listOfGifs:string []= []
   constructor(public gifService: GifService) {}
-  addGifToHisotry() {
-    this.listOfGifs = this.gifService.tagHistory;
-    console.log('this.listOfGifs', this.listOfGifs);
+  get gifToHisotry() {
+    return this.gifService.tagHistory;
   }
 }
