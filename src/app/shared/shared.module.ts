@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { GifsModule } from '../gifs/gifs.module';
 
 
 
@@ -10,6 +11,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
   ],
   imports: [
     CommonModule,
+    GifsModule
   ],
   exports:[
     SidebarComponent
