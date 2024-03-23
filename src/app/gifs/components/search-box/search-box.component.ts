@@ -7,7 +7,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
     <h5>Buscar:</h5>
     <input
       type="text"
-      class="from-control"
+      class="form-control"
       placeholder="Buscar Gif..."
       (keyup.enter)="searchTag()"
       #txtTagInput

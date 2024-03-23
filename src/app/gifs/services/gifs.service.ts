@@ -1,8 +1,12 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Gif, SearchResponse } from '../interfaces/gifs.interfaces';
+import { environment } from '../../../../enviromet';
 
-const GIPHY_APY_KEY = 'fsEp7fGHQheRhpXnvuQ5VL8uXLhqzhq1';
+
+
+const GIPHY_APY_KEY = environment.giphyApiKey;
+
 
 @Injectable({ providedIn: 'root' })
 export class GifService {
