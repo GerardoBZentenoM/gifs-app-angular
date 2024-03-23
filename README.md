@@ -12,7 +12,8 @@ Ensure you have [Node.js](https://nodejs.org/) and [Angular CLI](https://angular
 1. Clone this repository.
 2. Navigate to the repository folder.
 3. Run `npm install` to install dependencies.
-4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
+4. Update your GHYPE APYKEY in enviromet.ts.
+5. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 ## Demo
 ![Demo GIF](https://github.com/GerardoBZentenoM/gifs-app-angular/blob/main/demo_reduced.gif)
