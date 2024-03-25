@@ -1,20 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { GifsModule } from '../gifs/gifs.module';
+import { LazyImageComponent } from './components/lazy-image/lazy-image.component';
 
 
 
 @NgModule({
-  declarations: [
-    SidebarComponent
-  ],
-  imports: [
-    CommonModule,
-    GifsModule
-  ],
-  exports:[
-    SidebarComponent
-  ]
+  declarations: [SidebarComponent, LazyImageComponent],
+  imports: [CommonModule],
+  exports: [SidebarComponent, LazyImageComponent],
 })
-export class SharedModule { }
+export class SharedModule {}
